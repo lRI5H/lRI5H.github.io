@@ -672,64 +672,11 @@ html.theme-light .monaco-editor .margin {
     color: white !important;
 }
 
-/*welcome text*/
-body:before {
-    content: "Greetings " var(--user-name) "!";
-    z-index: 1000000000000000000000000;
-    top: 0px;
-    left: 52%;
-    position: absolute;
-    border-radius: 5px;
-    padding: 5px 15px;
-    transform: translate(-60%, -100%);
-    animation: chl 3s ease;
-    animation-delay: 4s;
-}
-
-html.theme-dark body:before {
-    color: #fff;
-    background-color: #0000007a;
-}
-
-html.theme-light body:before {
-    color: rgb(0, 0, 0);
-    background-color: #ffffff7a;
-}
-
 body,
 span:not(.spinner-item) {
     -webkit-font-smoothing: antialiased;
 }
 
-@-webkit-keyframes chl {
-    from {
-        transform: translate(-60%, -100%);
-    }
-    20% {
-        transform: translate(-60%, 20%);
-    }
-    80% {
-        transform: translate(-60%, 20%);
-    }
-    to {
-        transform: translate(-60%, -100%);
-    }
-}
-
-@keyframes chl {
-    from {
-        transform: translate(-60%, -100%);
-    }
-    20% {
-        transform: translate(-60%, 20%);
-    }
-    80% {
-        transform: translate(-60%, 20%);
-    }
-    to {
-        transform: translate(-60%, -100%);
-    }
-}
 
 /*default avatar*/
 [src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
@@ -850,11 +797,6 @@ html.theme-dark {
 
 html.theme-light {
     --cl-appearance: "Light";
-}
-
-#app-mount .info__2debe .line__2debe:last-child:after {
-    content: "Chillax " var(--cl-appearance) " 🎮";
-    display: block;
 }
 
 /*custom bd window edit*/
