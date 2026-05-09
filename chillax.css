@@ -20,20 +20,6 @@
 @import url("https://warrayquipsome.github.io/Chillax/Components/ChatArea.css");
 @import url("https://warrayquipsome.github.io/Chillax/Components/ChannelHeader.css");
 @import url("https://warrayquipsome.github.io/Chillax/Components/EmojiPicker.css");
-
-/* Restore user area - show username and info always */
-[class*="nameTag"],
-[class*="usernameContainer"],
-[class*="username"],
-[class*="subtextContainer"],
-[class*="panelSubtext"] {
-    display: flex !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    height: auto !important;
-    overflow: visible !important;
-    transform: none !important;
-    max-height: unset !important;
     
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
@@ -2945,4 +2931,14 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 
 .chatTypingGradientNotAtBottom__36d07.chatGradientBase__36d07 {
     display: none !important;
+}
+
+/* Restore user area - always show everything */
+.panels__5e434 .buttons__37e49 > * {
+    opacity: 1 !important;
+}
+
+.accountPopoutButtonWrapper__37e49 {
+    max-width: 270px !important;
+    min-width: 270px !important;
 }
