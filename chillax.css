@@ -2938,7 +2938,9 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
     opacity: 1 !important;
 }
 
-.accountPopoutButtonWrapper__37e49 {
-    max-width: 130px !important;
+div.accountPopoutButtonWrapper__37e49 {
+    max-width: 200px !important;
     min-width: 130px !important;
+    width: auto !important;
+    overflow: visible !important;
 }
