@@ -4,7 +4,7 @@
 }
 
 .leading_c38106::before {
-    content: "‏‏‎ i r i s h ";
+    content: "‏‏‎ i r i s h";
     font-size: 12px;
     font-weight: 900;
     font-family: "Poiret one" !important;
@@ -19,7 +19,7 @@
 }
 
 .leading_c38106:hover::before {
-    content: "‏‏‎ c h i l l a x";
+    content: "‏‏‎ i r i s h";
     letter-spacing: 2px;
 }
 
