@@ -675,7 +675,7 @@ html.theme-light .monaco-editor .margin {
 
 /*welcome text*/
 body:before {
-    content: "IRISH " var(--user-name) "!";
+    content: "Hello " var(--user-name) "!";
     z-index: 1000000000000000000000000;
     top: 0px;
     left: 52%;
