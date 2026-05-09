@@ -21,6 +21,20 @@
 @import url("https://warrayquipsome.github.io/Chillax/Components/ChannelHeader.css");
 @import url("https://warrayquipsome.github.io/Chillax/Components/EmojiPicker.css");
 
+/* Restore user area - show username and info always */
+[class*="nameTag"],
+[class*="usernameContainer"],
+[class*="username"],
+[class*="subtextContainer"],
+[class*="panelSubtext"] {
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+    overflow: visible !important;
+    transform: none !important;
+    max-height: unset !important;
+    
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
 /*home tab fix*/
